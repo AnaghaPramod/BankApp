@@ -1,0 +1,34 @@
+                          Angular
+
+                    BankApp in Angular
+
+
+                    Front end: Angular
+                    Backend: Nodejs(Express)
+                    DataBase: MongoDb
+
+
+    Basic building modules
+1. Module - To import 3rd party libraries
+2. Component - To create html css and ts files
+
+
+
+
+    Basic Commands
+1. create a project - ng new project_name
+2. create a component - ng g c component_name
+3. run - ng serve --open
+
+
+1) Data binding
+
+To share data inside the component
+ts - component and html - view 
+    1)one way data binding (ts->html or html->ts)
+       a)component to view
+            a.1)String interpolation - {{expression}}
+            a.2)property binding - [attribute_name]="property"
+       b)view to component
+            b.1)event binding - (event_name)="function name"
+            b.2)event binding using $event - (event_name)="function name($event)"

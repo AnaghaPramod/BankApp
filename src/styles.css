@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+.img{
+    width: 3cm ;
+    height: 3cm;
+    border-radius: 50%;
+}
+
+.bk{
+   border-radius:1cm;
+   background-color: rgb(213, 227, 239);
+   
+}
+
+.btn{
+    background-color: rgb(56, 128, 180);
+    border-radius: 5cm;
+}
+#btn{
+    background-color: rgb(56, 128, 180); 
+    border-radius: 5cm;
+}
+.h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.form{
+    border-radius: 5cm;
+}
+
+
