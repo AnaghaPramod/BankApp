@@ -21,7 +21,7 @@
 3. run - ng serve --open
 
 
-1) Data binding
+I) Data binding
 
 To share data inside the component
 ts - component and html - view 
@@ -32,3 +32,86 @@ ts - component and html - view
        b)view to component
             b.1)event binding - (event_name)="function name"
             b.2)event binding using $event - (event_name)="function name($event)"
+            b.3)event binding using template referencing variable - #variable_name
+
+    2)two way binding
+     Data share in both directions (ts->html and html->ts)
+     ngModel (library) - import from FormsModule
+     import ngModel from FormsModule
+
+
+
+
+II) Angular routing
+
+To set path for a component
+    
+    {
+      path: '', component:LoginComponent
+          // '' - 4200 login
+    },
+    {
+      path: 'dashboard', component:DashboardComponent
+          // '' - 4200/dashboard - register
+    }
+-Use router outlet selector inside the root component 
+
+
+
+
+III) Dependency injection
+
+To share data between two components 
+-Here we use constructor to achieve this concept
+eg:login to dashboard
+
+
+
+IV)Angular service 
+to hold redundant(duplicate) data
+
+to create a service in angular - ng g s service_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6)Angular forms
+
+a)template driven formss(designing of html page)
+b)model driven forms(ts file model, design->html page)
+       -for advanced validation
+       -a)reactive forms module
+              -group,array,controller
+              -import reactive forms modules
+                 
